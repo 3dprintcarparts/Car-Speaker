@@ -1,0 +1,70 @@
+# Privacy Policy
+
+Last updated: 31.12.2025
+
+# Overview
+This application (“Car Speaker”) is designed to control a local ESP32-based audio device via a direct WiFi connection.
+The app operates entirely offline and does not collect, store, or transmit personal data to any external servers.
+
+Your privacy is respected by design.
+
+# Data Collection
+No personal data is collected.
+
+The app:
+ - Does not require user accounts
+ - Does not collect names, email addresses, phone numbers, or identifiers
+ - Does not track usage or behavior
+ - Does not use analytics, advertising, or tracking SDKs
+ - Does not access contacts, location, camera, or microphone
+
+# Network Communication
+The app communicates only with a local ESP32 device over a direct WiFi connection.
+ - Communication is limited to:
+   - Audio control (play / stop)
+   - File management (list, upload, move, delete WAV files)
+   - Device configuration (volume, WiFi settings)
+ - All communication happens within the local network
+ - No data is sent to the internet or third-party services
+The ESP32 device acts as a local access point and HTTP server.
+
+# Permissions
+The app may request the following permissions:
+ - **WiFi access**
+   Required to connect to the ESP32 device
+ - **File access (user-selected files only)**
+   Used exclusively to allow the user to select WAV files for upload
+   The app does not scan or access files without user interaction
+No background scanning or hidden access is performed.
+
+Data Storage
+ - The app does not store personal data
+ - Configuration data (e.g. volume settings) is stored only on the ESP32 device
+ - The Android app does not persist sensitive information
+
+# Third-Party Services
+ - This app uses no third-party services, including:
+ - Analytics platforms
+ - Advertising networks
+ - Crash reporting services
+ - Cloud backends
+
+# Children’s Privacy
+This app does not collect any data and is therefore safe to use by children.
+No age-specific data is requested or processed.
+
+# Changes to This Policy
+If the functionality of the app changes in a way that affects privacy, this policy will be updated accordingly.
+Any changes will be documented transparently.
+
+# Contact
+If you have questions about this privacy policy or the app itself, please open an issue on the project’s GitHub repository.
+
+# Summary (Plain Language)
+ - No tracking
+ - No cloud
+ - No ads
+ - No analytics
+ - No personal data
+
+**The app does exactly what it says: control your local car speaker — nothing more.**
