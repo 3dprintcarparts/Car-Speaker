@@ -1,10 +1,13 @@
 # Car Speaker – ESP32 WiFi Audio Player with Android App
-This project is a DIY car audio system built around an ESP32, controlled by an Android app(***will follow for download on the appstore for a small pricetag for a coffee***), and designed to play WAV audio files directly from an SD card via an I2S amplifier.
+This project is a DIY car audio system built around an ESP32, controlled by an Android app, and designed to play WAV audio files directly from an SD card via an I2S amplifier.
 
 The ESP32 acts as a standalone WiFi access point, exposing a small HTTP API.
 An Android app connects to this AP and provides full control over playback, file management, and device configuration.
 
 The system is intentionally offline-first: no cloud, no external services, no internet required.
+
+# Android App to controll ESP
+***will follow for download on the appstore for a small pricetag for a coffee***
 
 ## Key Features
 1) ESP32-based audio player
