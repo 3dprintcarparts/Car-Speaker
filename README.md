@@ -1,6 +1,5 @@
 # Car-Speaker
-Arduino Sketch for setting up a WLAN accessable Speaker to play sounds. Android App will be published in App Store. Initially the idea behind this ESP <br/>
-Code and the additional Android app, is a speaker to add into a car (over 12V Battery) so you can access a Speaker over WLAN to play Meme Sounds out loud of the Car :D
+Arduino Sketch for setting up a WLAN accessable Speaker to play sounds. Android App will be published in App Store. Initially the idea behind this ESP Code and the additional Android app, is a speaker to add into a car (over 12V Battery) so you can access a Speaker over WLAN to play Meme Sounds out loud of the Car :D
 
 Needed electronic parts:
 1) ESP32
